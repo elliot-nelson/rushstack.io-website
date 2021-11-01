@@ -10,8 +10,9 @@ const { SKIP_API_DOCS } = require('./custom.config.js');
 const config = {
   title: 'Rush Stack',
   // tagline: 'Dinosaurs are cool',
-  url: 'https://rushstack.io',
-  baseUrl: '/',
+  url: 'https://elliot-nelson.github.io',
+  baseUrl: '/rushstack.io-website',
+  trailingSlash: true,
 
   // TOOD: Discover and fix all broken links before we deploy.
   // TODO: Decide if we want broken links to actually fail deployment
@@ -20,7 +21,7 @@ const config = {
   onBrokenMarkdownLinks: 'log', //'warn',
 
   favicon: 'images/favicon.ico',
-  organizationName: 'microsoft', // Usually your GitHub org/user name.
+  organizationName: 'elliot-nelson', // Usually your GitHub org/user name.
   projectName: 'rushstack.io-website', // Usually your repo name.
 
   presets: [
